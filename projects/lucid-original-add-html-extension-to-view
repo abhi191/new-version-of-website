@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Abhinav Gupta UX Designer from NID Bangalore currently in SAP">
+  <meta name="keywords"
+    content="abhinav, gupta, ux designer, user experience, india, nid, national institute of design, bangalore,user interface, information architecture, motion, design, ux, usgbc, group10, sap, saplabs, ux, sap design, deesign, design thinking, ux, ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Abhinav Gupta">
+  <link rel="icon" type="image/png" href="/images/logo_1x.png" />
+  <title>Abhinav Gupta | UX Designer</title>
+
+
+  <link rel="stylesheet" href="/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/progress-wrap.css">
+  <link rel="stylesheet" href="/css/unicons.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
+
+  <!-- PHOTO SWIPE SCRIPTS-->
+  <!--    <link rel="stylesheet" href="/css/simplelightbox.min.css">
+    <link rel="stylesheet" href="/css/default-skin/default-skin.css"> 
+    <link rel="stylesheet" href="/css/lightbox.min.css">    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!--   <script src="/js/simple-lightbox.min.js"></script> 
+    <script src="/js/photoswipe-ui-default.min.js"></script> 
+    <script src="/js/lightbox.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <!--                      -->
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+<!-- Google Tag Manager -->
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M67HRDL');
+        </script>
+        <!-- End Google Tag Manager -->
+
+
+</head>
+
+<body>
+
+  	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M67HRDL"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+  <!-- HEADER SECTION -->
+  <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="http://itsabhi.com">
+          <img src="/images/logo.svg" width="86" height="28">
+          <span class="has-text-weight-bold is-uppercase"> Abhinav Gupta </span>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/">Work</a>&nbsp;&nbsp;
+          <a class="navbar-item" href="/about.html">About Me</a>&nbsp;&nbsp;
+          <a class="navbar-item" href="mailto:abhinav191@gmail.com">Contact</a>&nbsp;&nbsp;
+          <!--	<a class="navbar-item button is-info is-outlined" href="/resume.pdf" target="_blank">Resume</a> -->
+          <a class="button is-info is-outlined is-rounded navbar-item" href="/resume.pdf" target="_blank">
+            <span class="icon">
+              <i class="far fa-file-alt"></i>
+            </span>
+            <span>Resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- BODY -->
+
+  <body>
+
+    <section class="hero is-medium is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-half content">
+              <p class="is-fira-sans">
+                <!--   <img src="/images/projects/lucid-capacity/lucid-logo.svg" width="48" height="48"> -->
+                <span class="title is-1 has-text-primary">Lucid Capacity</span><br><span class="is-size-4 has-text-grey">(Workforce Management Software)</span>
+              </p>
+            <br>
+              <p class="has-text-grey is-fira-sans">
+                Lucid Capacity is a re-designed internal SAP tool to manage workforce within the company.</p>
+              <p class="has-text-grey is-fira-sans">
+                It provides an easy way to manage capacity of employees.
+                Managers have a clear overview about their employees and what they are working on, offering an easy way
+                to maintain their employees, create / staff teams and identify allocation gaps.
+              </p>
+            </div>
+            <div class="column is-half content is-centered">
+              <!--        <img src="/images/projects/lucid-capacity/lucid-logo.svg" width="56" height="56">   -->
+              <video autoplay="" loop="">
+                <source src="/images/projects/lucid-capacity/Logo+text-3.mp4">
+              </video>
+              <nav class="level">
+                <div class="level-item">
+                  <span class="is-size-7 has-text-grey">A small animation I made 🙂</span>
+                </div>
+              </nav>
+            </div>
+          </div>&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="columns is-centered">
+            <div class="column is-8">
+              <img src="/images/projects/lucid-capacity/features-1.png" alt="lucid-capacity-features"> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+          <div class="level-item content has-text-centered">
+            <!--                 <img src="/images/common/goals.svg" height="36px" width="36px">&nbsp;&nbsp;&nbsp;&nbsp;   -->
+            <div class="is-number">01</div>
+            <p class="title is-2 has-text-primary">Goals</p>
+          </div>
+        </nav>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p>The current tool used for workforce management is an old legacy sytem which gets too overwhelming for
+                the managers and the people using the tool. Managers currently have difficulty using and understanding
+                what they need to do if they donot regularly get trainings and work with the current tool.</p>
+              <p>It was then decided to revamp the whole tool to make it simple and crystal clear for the people both
+                advanced and beginner to use the tool.</p>
+              <strong class="has-text-grey"><ul>
+                <li>Revamp the Team Allocation Planner(TAP) functionality to the current UI standards and specifications.</li>
+                <li>Make the experience of using TAP simple for both beginners and expert people.</li>
+                <li>To make the current implementation of TAP easy for people of different
+                  units to operate.</li>
+                <li>To simplify processes in the current functionality.</li>
+                <li>Understand where exactly user is dropping out from using the functionality to its full potential.</li>
+              </ul></strong>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="columns has-text-centered">
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/tap-old-pic.png" data-fancybox="old-ui">
+              <img src="/images/projects/lucid-capacity/tap-old-pic.png" alt="TAP script"
+                class="is-covered subtle-shadow" style="height:25.75rem;"></a>
+            <figcaption class="is-size-7">Old Team Allocation Planner UI - Too many things going on</figcaption>
+          </div>
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/old-2.png" data-fancybox="old-ui">
+              <img src="/images/projects/lucid-capacity/old-2.png" alt="TAP script" class="is-covered subtle-shadow"
+                style="height:25.75rem;"></a>
+
+            <figcaption class="is-size-7">Old Team Allocation Planner UI - Browse through the hierarchy</figcaption>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+
+          <div class="level-item content has-text-centered">
+            <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <div class="is-number">02</div>
+            <p class="title is-2 has-text-primary">Process</p>
+          </div>
+        </nav>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p>The process followed was a structured approach to exactly pin-point what the problem areas were in the
+                existing tool so that they can be worked upon and improved in the newer version of the tool. Emphasis
+                was laid out on proper research and insights to make informed decisions.</p>
+              <p>The Product Owner(PO) of the project gave a list of major users of the tool and TAP functionality and
+                the following research structure was put in place to get insights :</p>
+              <strong class="has-text-grey"><ul>
+                <li>Qualitative interviews</li>
+                <li>Number of interviews : 15</li>
+                <li>Participants in interview : 2 UX Designers + 1 PO over skype</li>
+                <li>Duration : 30-45 minutes per interview</li>
+              </ul></strong><br>
+              <p>Workshops with stakeholders were also conducted on a bi-weekly basis to better understand the tool.</p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p>Two personas were identified after the research. One was for the <strong>Managers</strong> and the
+                other was for the <strong>Operations Person or the PMO</strong> of the office.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="columns has-text-centered">
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/persona-2.png" data-fancybox="per-1">
+              <img src="/images/projects/lucid-capacity/persona-2.png" alt="manager's persona"
+                class="subtle-shadow"></a>
+            <figcaption class="is-size-7">Manager's Persona</figcaption>
+
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/persona-1.png" data-fancybox="per-1">
+              <img src="/images/projects/lucid-capacity/persona-1.png" alt="operations person persona"
+                class="subtle-shadow"></a>
+            <figcaption class="is-size-7">Operations Person Persona</figcaption>
+
+          </div>
+        </div><br><br>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p>A user story map was created to visualise where exactly TAP occurs in the whole ecosystem and what
+                different stakeholders have different issues with it.</p>
+              <a href="/images/projects/lucid-capacity/tap-usm.png" data-fancybox="image-1">
+                <img src="/images/projects/lucid-capacity/tap-usm.png" class="is-covered subtle-shadow"
+                  alt="lucid-project-image"></a>
+              <figcaption class="is-size-7 has-text-centered">User story map showing the overview of system and
+                pain-points of the users</figcaption>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+
+          <div class="level-item content has-text-centered">
+            <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <div class="is-number">03</div>
+            <div class="mb-50"></div>
+            <p class="title is-2 has-text-primary">Design & Testing</p>
+          </div>
+        </nav>
+        <div class="columns is-centered">
+          <div class="column is-8">
+              <br><br>
+            <div class="content has-text-grey">
+              <p>Rapid iteration followed the step after we got the insights from the result to address the following
+                problems for the users :</p>
+                <figure class="image">
+                    <img src="/images/projects/lucid-capacity/insights.png"></figure>
+           <!--   <ul>
+                <li>Confusing controls</li>
+                <li>Too much clutter</li>
+                <li>Outdated UI</li>
+                <li>Search and allocation of portfolio difficult process</li>
+                <li>Performance issue</li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+        
+        <section class="section">
+          <div class="container has-text-centered">
+            <p class="title is-4 has-text-primary">Iterations</p>
+          </div>
+        </section>
+        <div class="columns is-multiline has-text-centered">
+          <div class="column">
+          
+            <a href="/images/projects/lucid-capacity/it-1-1.png" data-fancybox="oi1">
+              <img src="/images/projects/lucid-capacity/it-1-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/it-1-2.png" data-fancybox="oi1">
+              <img src="/images/projects/lucid-capacity/it-1-2.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/it-1-3.png" data-fancybox="oi1">
+              <img src="/images/projects/lucid-capacity/it-1-3.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+
+        </div>
+        <br><br>
+        <div class="columns is-multiline has-text-centered">
+            <div class="column">
+            
+              <a href="/images/projects/lucid-capacity/it-2-1.png" data-fancybox="oi1">
+                <img src="/images/projects/lucid-capacity/it-2-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+            </div>
+  
+            <div class="column">
+              <a href="/images/projects/lucid-capacity/it-2-2.png" data-fancybox="oi1">
+                <img src="/images/projects/lucid-capacity/it-2-2.png" alt="TAP UI" class="is-covered new-shadow"></a>
+            </div>
+            <div class="column">
+              <a href="/images/projects/lucid-capacity/it-2-3.png" data-fancybox="oi1">
+                <img src="/images/projects/lucid-capacity/it-2-3.png" alt="TAP UI" class="is-covered new-shadow"></a>
+            </div>
+  
+          </div><br><br>
+          <div class="columns is-multiline has-text-centered">
+              <div class="column">
+              
+                <a href="/images/projects/lucid-capacity/it-3-1.png" data-fancybox="oi1">
+                  <img src="/images/projects/lucid-capacity/it-3-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+              </div>
+    
+              <div class="column">
+                <a href="/images/projects/lucid-capacity/it-3-2.png" data-fancybox="oi1">
+                  <img src="/images/projects/lucid-capacity/it-3-2.png" alt="TAP UI" class="is-covered new-shadow"></a>
+              </div>
+              <div class="column">
+                <a href="/images/projects/lucid-capacity/it-3-3.png" data-fancybox="oi1">
+                  <img src="/images/projects/lucid-capacity/it-3-3.png" alt="TAP UI" class="is-covered new-shadow"></a>
+              </div>
+    
+            </div><br><br>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p>Usability testing with the users were done iteratively to make sure that whatever direction we were
+                going, was in-line with the user expectations and that they were able to easily understand the new UI
+                for TAP and work on it.</p>
+              <p>We prepared scripts for each session, where user was given certain tasks to perform and asked to speak
+                out loud whatever they felt which could be related to certain functionalities, visual elements or the
+                process or anything that might hamper the user to complete the task.</p>
+              <p>Notes were taken and then reflected upon, iterated in the newer version of mockups and then presented
+                back to users to get feedback. This way, users were always in the loop while the feature was being
+                developed.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <div class="columns has-text-centered">
+          <div class="column is-4 is-offset-2">
+            <a href="/images/projects/lucid-capacity/script.png" data-fancybox="script">
+              <img src="/images/projects/lucid-capacity/script.png" alt="TAP script" class="is-covered subtle-shadow"
+                style="height:25.75rem;"></a>
+            <figcaption class="is-size-7">Usability testing script</figcaption>
+
+          </div>
+
+          <div class="column is-4">
+            <a href="/images/projects/lucid-capacity/test-results.png" data-fancybox="script">
+              <img src="/images/projects/lucid-capacity/test-results.png" alt="TAP test results"
+                class="is-covered subtle-shadow" style="height:25.75rem;"></a>
+            <figcaption class="is-size-7">Test results collated</figcaption>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+
+          <div class="level-item content has-text-centered">
+            <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <div class="is-number">04</div>
+            <div class="mb-50"></div>
+            <p class="title is-2 has-text-primary">Results</p>
+          </div>
+        </nav>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p>Finally the new UI for TAP was released which was easy to use and clutterless yet retaining the
+                functionalities of the old UI. The following were some of the enhacements in the new UI.</p>
+                <strong class="has-text-grey"><ul>
+                <li>TAP integrated with Teams Tab so no new section needed for it in the website.</li>
+                <li>Searching and allocation of portfolio was made easier than ever.</li>
+                <li>Redundant elements removed to provide crisp functionalities.</li>
+                <li>TAP now fully integrated with the current UI of Lucid Capacity thus making it a part of the same
+                  family and giving users a uniform experience through-out.</li>
+              </ul></strong> <br>
+              <p>
+                Some final screens of TAP UI are displayed here.<br>
+                P.S - I would be happy to show the full working prototype offline 🙂
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="columns has-text-centered is-grey-light">
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/new-1.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-1.png" alt="TAP UI"
+                class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/new-2.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-2.png" alt="TAP UI"
+                class="is-covered new-shadow"></a>
+          </div>
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/new-3.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-3.png" alt="TAP UI"
+                class="is-covered new-shadow"></a>
+          </div>
+        </div>
+          <div class="columns has-text-centered is-grey-light">
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/new-4.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-4.png" alt="TAP UI"
+                class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/new-5.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-5.png" alt="TAP UI"
+                class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/new-6.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-6.png" alt="TAP UI"
+                class="is-covered new-shadow"></a>
+          </div>
+
+        </div>
+        <br><br>
+
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p class="is-size-5 has-text-grey-darker"> Testing the tool after development </p>
+              <p class="has-text-grey">I also created different test cases for testing the functionality of the re-designed Team Allocation Planner.
+                The document was shared online and I urged everyone to add more test cases as needed so that we keep track of all different functionalities that have been developed and the different use cases that might arise while using these functionalities and the expected results.
+                <br>This idea of documenting the test cases was greatly appreciated by my team and it started a practice of documenting the test cases for thorough testing within our team. 🙂
+              </p><br>
+
+              <p class="has-text-grey"> <a href="/images/projects/lucid-capacity/test-cases.png" data-fancybox="test-cases">
+                <img src="/images/projects/lucid-capacity/test-cases.png" alt="TAP test"
+                  class="is-covered new-shadow"></a>
+              </p>
+
+            </div>
+          </div>
+        </div><br><br>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p class="is-size-5 has-text-grey-darker">How successful was the re-design of the Team Allocation Planner UI ? </p>
+              <p class="has-text-grey">After being developed and launched recently to mass audience, we have recieved great feedback from the
+                different users.<br>
+                The analytics tool <a href="https://matomo.org/" target="_blank" >Matomo</a> is showing how well the users are able to work on Lucid Capacity and are
+                retaining for longer period of times. Also the number of clicks to find and allocate portfolio has been
+                greatly reduced and is being used by the users a lot.
+              </p><br><br>
+
+              <p class="has-text-grey"> The way forward from now on will be get one SUS Survey done to get a feel of how well the users are
+                able to use the functionality. Also keeping close eye on the analytics data from Matomo will give us
+                more insights on where exactly the users are still getting stuck or not able to do their work
+                efficiently.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container has-text-centered is-fira-sans">
+        <img src="/images/projects/lucid-capacity/lucid-logo.svg" width="32" height="32" class="rotation">
+        <p class="is-size-5"> Thank You for watching</p><br>
+        <p class="buttons is-centered">
+          <a class="button is-info is-outlined is-rounded" href="http://www.itsabhi.com">
+            <span class="icon">
+              <i class="fas fa-arrow-left"></i>
+            </span>
+            <span>See more work</span>
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </div>
+
+
+  </body>
+
+
+  <!-- FOOTEER SECTION -->
+  <footer class="footer">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-9">
+
+          <div class="content has-text-grey-light">
+            <p>
+              <span class="is-fira-sans">Made from scratch and <span class="has-text-danger">❤</span> by <strong
+                  class="has-text-grey"><span class="fancy-underline">Abhinav Gupta</span></strong><br></span>
+              <span class="is-fira-sans">© 2019</span><br>
+              <a href="https://bulma.io">
+                <img src="/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+              </a>
+            </p>
+          </div>
+
+        </div>
+        <div class="column is-3">
+
+          <div class="content has-text-grey-light">
+            <p class="is-fira-sans">
+              Connect with me 🤓</p>
+            <a href="https://www.linkedin.com/in/abhinav191" target="_blank" class="has-text-link is-size-5"><i
+                class="fab fa-linkedin fa-lg"></i></a> &nbsp;&nbsp;
+            <a href="https://www.twitter.com/abhi191" target="_blank" class="has-text-info is-size-5"><i
+                class="fab fa-twitter fa-lg"></i></a> &nbsp;&nbsp;
+            <a href="https://www.instagram.com/abhi191" target="_blank" class="has-text-danger is-bold is-size-5"><i
+                class="fab fa-instagram fa-lg"></i></a> &nbsp;&nbsp;
+            <a href="https://www.facebook.com/abhinav191" target="_blank" class="has-text-link is-size-5"><i
+                class="fab fa-facebook fa-lg"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+
+<script type="text/javascript">
+  (function ($) {
+    "use strict";
+
+    $(document).ready(function () {
+      "use strict";
+
+      //Scroll back to top
+
+      var progressPath = document.querySelector('.progress-wrap path');
+      var pathLength = progressPath.getTotalLength();
+      progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+      progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+      progressPath.style.strokeDashoffset = pathLength;
+      progressPath.getBoundingClientRect();
+      progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+      var updateProgress = function () {
+        var scroll = $(window).scrollTop();
+        var height = $(document).height() - $(window).height();
+        var progress = pathLength - (scroll * pathLength / height);
+        progressPath.style.strokeDashoffset = progress;
+      }
+      updateProgress();
+      $(window).scroll(updateProgress);
+      var offset = 50;
+      var duration = 550;
+      jQuery(window).on('scroll', function () {
+        if (jQuery(this).scrollTop() > offset) {
+          jQuery('.progress-wrap').addClass('active-progress');
+        } else {
+          jQuery('.progress-wrap').removeClass('active-progress');
+        }
+      });
+      jQuery('.progress-wrap').on('click', function (event) {
+        event.preventDefault();
+        jQuery('html, body').animate({
+          scrollTop: 0
+        }, duration);
+        return false;
+      })
+
+
+    });
+
+  })(jQuery);
+</script>
+
+</body>
+
+</html>

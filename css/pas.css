@@ -1,0 +1,120 @@
+.hr-pas1{
+    background-color: #B0E5FF;
+    border: none;
+    display: block;
+    height: 0.5rem;
+    margin: 1.5rem 0;
+    border-radius: .25rem;
+}
+
+.hr-pas2{
+    background-color: #C5FCC7;
+    border: none;
+    display: block;
+    height: 0.5rem;
+    margin: 1.5rem 0;
+    border-radius: .25rem;
+}
+.pas-heading{
+    font-size: 1.8rem;
+}
+
+.gradient-background{
+    background: rgb(203,239,254);
+    background: linear-gradient(180deg, rgba(203,239,254,1) 0%, rgba(196,247,198,0.6488970588235294) 46%, rgba(255,255,255,0.8841911764705882) 100%);
+}
+
+.help-iframe{
+    border: 0;
+    height: 540px;
+    width: 960px;
+}
+
+.help-iframe2{
+    border: 0;
+    height: 450px;
+    width: 226px;
+}
+
+.pas-bg-test{
+    background: rgb(186,233,252);
+    background: linear-gradient(60deg, rgba(186,233,252,1) 0%, rgba(196,247,198,0.861782212885154) 100%);
+}
+
+/* Animating cubes in PAS begins here */
+
+.cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #00AAFF;
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+            transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    -webkit-animation: cube 9s ease-in forwards infinite;
+            animation: cube 9s ease-in forwards infinite;
+  }
+  .cube:nth-child(2n) {
+    border-color: rgb(127, 247, 131);
+  }
+  .cube:nth-child(2) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    left: 25vw;
+    top: 40vh;
+  }
+  .cube:nth-child(3) {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    left: 75vw;
+    top: 50vh;
+  }
+  .cube:nth-child(4) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    left: 90vw;
+    top: 10vh;
+  }
+  .cube:nth-child(5) {
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    left: 10vw;
+    top: 85vh;
+  }
+  .cube:nth-child(6) {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+    left: 50vw;
+    top: 10vh;
+  }
+  
+  @-webkit-keyframes cube {
+    from {
+      -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+              transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
+              transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes cube {
+    from {
+      -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+              transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
+              transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  
+  /* Animating cubes in PAS ends here */

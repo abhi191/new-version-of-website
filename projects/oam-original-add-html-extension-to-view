@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Abhinav Gupta UX Designer from NID Bangalore currently in SAP">
+  <meta name="keywords"
+    content="abhinav, gupta, ux designer, user experience, india, nid, national institute of design, bangalore,user interface, information architecture, motion, design, ux, usgbc, group10, sap, saplabs, ux, sap design, deesign, design thinking, ux, ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Abhinav Gupta">
+  <link rel="icon" type="image/png" href="/images/logo_1x.png" />
+  <title>Abhinav Gupta | UX Designer</title>
+
+
+  <link rel="stylesheet" href="/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/progress-wrap.css">
+  <link rel="stylesheet" href="/css/unicons.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <!--                      -->
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <!-- Google Tag Manager -->
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M67HRDL');
+        </script>
+        <!-- End Google Tag Manager -->
+
+
+</head>
+
+<body>
+
+  	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M67HRDL"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+  <!-- HEADER SECTION -->
+  <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="http://itsabhi.com">
+          <img src="/images/logo.svg" width="86" height="28">
+          <span class="has-text-weight-bold is-uppercase"> Abhinav Gupta </span>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="/">Work</a>&nbsp;&nbsp;
+          <a class="navbar-item" href="/about.html">About Me</a>&nbsp;&nbsp;
+          <a class="navbar-item" href="mailto:abhinav191@gmail.com">Contact</a>&nbsp;&nbsp;
+          <!--	<a class="navbar-item button is-info is-outlined" href="/resume.pdf" target="_blank">Resume</a> -->
+          <a class="button is-info is-outlined is-rounded navbar-item" href="/resume.pdf" target="_blank">
+            <span class="icon">
+              <i class="far fa-file-alt"></i>
+            </span>
+            <span>Resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- BODY -->
+
+  <body class="is-fira-sans">
+
+    <section class="hero is-medium is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-half content">
+              <p class="subtitle is-5 is-fira-sans has-text-grey">Complete re-design of online collaboration tool</p>
+              <p class="title is-1 is-fira-sans has-text-info">
+                <!--   <img src="/images/projects/oam/lucid-logo.svg" width="48" height="48"> -->
+                Object Attribute Manager
+              </p>
+              <p class="has-text-grey is-fira-sans"></p>
+              <p class="has-text-grey is-fira-sans is-size-6">
+                An exciting project done at SAP Labs, Bangalore as a User Experience Designer under the Products &
+                Innovation Tools team to completely re-design the experience of an online collaboration tool used
+                internally by the teams within SAP for multiple purposes.
+              </p>
+
+            </div>
+            <div class="column is-half">
+              <!--        <img src="/images/projects/oam/lucid-logo.svg" width="56" height="56">   -->
+
+              <img src="/images/projects/oam/head-1.png">
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+          <div class="level-item content has-text-centered">
+            <!--                 <img src="/images/common/goals.svg" height="36px" width="36px">&nbsp;&nbsp;&nbsp;&nbsp;   -->
+            <div class="is-number">01</div>
+            <p class="title is-2 has-text-info">Context</p>
+          </div>
+        </nav>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p>The Object Attribute Manager (OAM) is a generic tool for creating flexible object structures in an
+                Excel-like manner for storing and maintaining excel-like object lists in tables.</p>
+              <p>It was introduced to address the following typical problems, when working with XLS tables, or lists:
+              </p>
+              <ul>
+                <li>users cannot access data globally</li>
+                <li>users cannot simultaneously change data (lock each other out)</li>
+                <li>data gets regularly corrupted</li>
+                <li>changes are not logged</li>
+                <li>users cannot define and share a filtered view on the data</li>
+                <li>SAP users cannot define references to entities like JIRA issues, Product/Software Component
+                  Versions, Capacity Allocation Items etc.</li>
+              </ul>
+              <p>
+                OAM is not just an excel sheet but is part excel and part database with flexible structure (customizable
+                with components like drop down, checkboxes, linking to other tables etc.) and real time collaboration.
+                <br><br>
+                It can not only be used just for project management but is also useful in any scenario where anything
+                needs to be maintained and tracked where lots of stakeholders are involved.
+                <br><br>
+                In short, it’s a great organizational tool which can be used by anyone within the organization to manage
+                anything easily.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+
+          <div class="level-item content has-text-centered">
+            <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <div class="is-number">02</div>
+            <p class="title is-2 has-text-info">Secondary Research</p>
+          </div>
+        </nav><br>
+        <div class="columns">
+          <div class="column is-2">
+            <div class="content has-text-grey">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">Heuristics
+                  Evaluation</span></p>
+              <p>A detailed heuristics evaluation of the current tool was done with respect to the Nielsen Norman’s 10
+                usability heuristics.
+                <br><br>
+                Each heuristic was numbered relating to the standard it was violating and properly documented in a
+                report format with accompanying screenshots for each.</p>
+            </div>
+          </div>
+
+          <div class="column is-5">
+            <div class="content has-text-centered">
+              <a href="/images/projects/oam/heuristic-1.png" data-fancybox="heu-1">
+                <img src="/images/projects/oam/heuristic-1.png" alt="heuristics" class="subtle-shadow"></a>
+              <figcaption class="is-size-7">Heuristic documentation</figcaption>
+
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="content has-text-centered">
+              <a href="/images/projects/oam/heuristic-2.png" data-fancybox="heu-1">
+                <img src="/images/projects/oam/heuristic-2.png" alt="heuristcs" class="subtle-shadow"></a>
+              <figcaption class="is-size-7">Heuristic documentation</figcaption>
+
+            </div>
+          </div>
+        </div>
+        <br><br><br><br>
+        <div class="columns">
+          <div class="column is-9">
+            <div class="content has-text-centered">
+              <img src="/images/projects/oam/compare.png" alt="heuristics" class="subtle-shadow">
+
+            </div>
+          </div>
+
+          <div class="column is-3">
+            <div class="content has-text-grey">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">Comparative
+                  Analysis</span></p>
+              <p>The similar functionalities that OAM provided was being offered by the three major players in the
+                market.
+                <br><br>
+                Their core product was studied and each of the features that the tools provided was laid out in a
+                comparative analysis to find out where our current tool stood.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+
+          <div class="level-item content has-text-centered">
+            <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <div class="is-number">03</div>
+
+            <p class="title is-2 has-text-primary has-text-info">Primary Research</p>
+          </div>
+        </nav>
+        <br>
+        <div class="columns">
+          <div class="column is-2">
+            <div class="content has-text-grey">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">Interviews</span></p>
+              <p>
+                A number of stakeholders were identified for the tool and then the interview process was carried with
+                the users to understand and gain insights about how they use the tool, what they feel about it, their
+                frustrations and pain points.
+                <br><br>
+                The results were mapped and insights taken out from the interview highlighted some common patterns.
+              </p>
+            </div>
+          </div>
+
+          <div class="column is-5 is-centered">
+            <nav class="level">
+              <div class="level-item is-centered">
+                <img src="/images/projects/oam/int-11.png" alt="heuristcs" class="has-text-centered">
+              </div>
+            </nav>
+
+          </div>
+
+          <div class="column is-5">
+            <div class="columns is-multiline is-mobile">
+              <div class="column is-12">
+                <img src="/images/projects/oam/int-21.png" alt="heuristcs" class="has-text-centered">
+              </div>
+              &nbsp;&nbsp;<br>
+              &nbsp;&nbsp;&nbsp;
+              <div class="column is-12">
+                <img src="/images/projects/oam/int-31.png" alt="heuristcs" class="has-text-centered">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <br><br>
+        <div class="columns">
+          <div class="column is-6">
+            <div class="columns is-multiline is-mobile">
+              <div class="column is-12">
+                <img src="/images/projects/oam/sur-1.png" alt="heuristcs" class="has-text-centered">
+              </div>
+
+              <div class="column is-12">
+                <img src="/images/projects/oam/sur-2.png" alt="heuristcs" class="has-text-centered">
+              </div>
+            </div>
+          </div>
+          <div class="column is-6">
+            <div class="content has-text-grey ">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">Online Survey</span>
+              </p>
+              <p>
+                The interviews gave us the why we were looking for, but the survey results helped in quantifying the
+                information and pin pointing exactly what needed to be addressed to improve the experience of using the
+                tool.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+
+          <div class="level-item content has-text-centered">
+            <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <div class="is-number">04</div>
+            <p class="title is-2 has-text-info">Insights</p>
+          </div>
+        </nav>
+        <div class="columns">
+          <div class="column is-2">
+            <div class="content has-text-grey">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">Persona</span></p>
+              <p>After mapping the insights and from the interviews and the survey results, 2 personas were created to
+                encompass the different user needs and aspirations.
+              </p>
+            </div>
+          </div>
+
+          <div class="column is-5">
+            <div class="content has-text-centered">
+              <a href="/images/projects/oam/per-1.png" data-fancybox="p-1">
+                <img src="/images/projects/oam/per-1.png" alt="heuristics" class="subtle-shadow"></a>
+              <figcaption class="is-size-7">Admin user persona</figcaption>
+
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="content has-text-centered">
+              <a href="/images/projects/oam/per-2.png" data-fancybox="p-1">
+                <img src="/images/projects/oam/per-2.png" alt="heuristcs" class="subtle-shadow"></a>
+              <figcaption class="is-size-7 has-text-centered">Normal user persona</figcaption>
+
+            </div>
+          </div>
+
+
+        </div>
+        <br><br>
+
+
+        <br><br>
+        <div class="columns">
+          <div class="column is-10 has-text-centered">
+            <a href="/images/projects/oam/uj.png" data-fancybox="uj-1">
+              <img src="/images/projects/oam/uj.png" alt="heuristcs" class="subtle-shadow"></a>
+            <figcaption class="is-size-7">User journey for admin</figcaption>
+
+          </div>
+
+          <div class="column is-2">
+            <div class="content has-text-grey">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">User Journey</span></p>
+              <p>The user journey was also mapped of the to show exactly at which step what problems are faced by the
+                users and what goes through their minds when going through that particular phase.</p>
+            </div>
+          </div>
+
+        </div>
+        <br><br>
+        <div class="columns">
+          <div class="column is-2">
+            <div class="content has-text-grey">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">Information
+                  Architecture</span></p>
+              <p>A detailed Information Architecture of the overall tool was created keeping in mind the various
+                constraints and adding new functionalities to improve the experience.</p>
+            </div>
+          </div>
+
+          <div class="column is-10">
+            <div class="content has-text-centered">
+              <a href="/images/projects/oam/IA.png" data-fancybox="p-1">
+                <img src="/images/projects/oam/IA.png" alt="heuristics" class="subtle-shadow"></a>
+              <figcaption class="is-size-7">Information architect of proposed system</figcaption>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      </div>
+
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container is-fira-sans">
+        <nav class="level">
+
+          <div class="level-item content has-text-centered">
+            <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <div class="is-number">05</div>
+            <p class="title is-2 has-text-info">Ideation & Design</p>
+          </div>
+        </nav>
+        <br>
+        <div class="columns is-grey-light">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">Wireframes</span></p>
+              <p>Wireframing were done to reflect the insights on to the screen for different aspects of the tool.
+                Different sections of the tool were wireframed extensively to get a rough idea of how the interface
+                would look like.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="columns has-text-centered is-grey-light">
+          <div class="column">
+            <a href="/images/projects/oam/OAM-1.png" data-fancybox="oam-old">
+              <img src="/images/projects/oam/OAM-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/oam/OAM-2.png" data-fancybox="oam-old">
+              <img src="/images/projects/oam/OAM-2.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+          <div class="column">
+            <a href="/images/projects/oam/OAM-3.png" data-fancybox="oam-old">
+              <img src="/images/projects/oam/OAM-3.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/oam/OAM-5-1.png" data-fancybox="oam-old">
+              <img src="/images/projects/oam/OAM-5-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+
+          <!--  <div class="column">
+                                                                          <a href="/images/projects/oam/OAM-5.png" data-fancybox="oam-old">
+                                                                          <img src="/images/projects/oam/OAM-5.png" alt="TAP UI" class="is-covered new-shadow"></a>                                                                    
+                                                                      </div>     
+
+                                                                      <div class="column">
+                                                                        <a href="/images/projects/oam/OAM-6.png" data-fancybox="oam-old">
+                                                                        <img src="/images/projects/oam/OAM-6.png" alt="TAP UI" class="is-covered new-shadow"></a>                                                                    
+                                                                    </div>      -->
+
+          <div class="column">
+            <a href="/images/projects/oam/OAM-6_1.png" data-fancybox="oam-old">
+              <img src="/images/projects/oam/OAM-6_1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+        </div>
+
+        <br><br>
+
+        <div class="columns is-grey-light">
+          <div class="column">
+            <div class="content has-text-grey">
+              <p class="subtitle is-4"> <span class="is-underline-blue has-text-weight-semibold">Mockups</span></p>
+              <p>The initial wireframes were refined to create the final mockups.
+
+                Many iterations of the mockup took place - first while making the interface and then after the usability
+                testing with the users.
+                <br>
+                P.S - I'll be happy to show a full working prototype offline.</p>
+            </div>
+          </div>
+          <br><br>
+        </div>
+        <div class="columns has-text-centered is-grey-light">
+          <div class="column">
+            <a href="/images/projects/oam/oam-new1.png" data-fancybox="oam-n">
+              <img src="/images/projects/oam/oam-new1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/oam/oam-new2.png" data-fancybox="oam-n">
+              <img src="/images/projects/oam/oam-new2.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+          <div class="column">
+            <a href="/images/projects/oam/oam-new3.png" data-fancybox="oam-n">
+              <img src="/images/projects/oam/oam-new3.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/oam/oam-new4.png" data-fancybox="oam-n">
+              <img src="/images/projects/oam/oam-new4.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+
+          <!--  <div class="column">
+                                                                              <a href="/images/projects/oam/OAM-5.png" data-fancybox="oam-old">
+                                                                              <img src="/images/projects/oam/OAM-5.png" alt="TAP UI" class="is-covered new-shadow"></a>                                                                    
+                                                                          </div>     
+    
+                                                                          <div class="column">
+                                                                            <a href="/images/projects/oam/OAM-6.png" data-fancybox="oam-old">
+                                                                            <img src="/images/projects/oam/OAM-6.png" alt="TAP UI" class="is-covered new-shadow"></a>                                                                    
+                                                                        </div>      -->
+
+          <div class="column">
+            <a href="/images/projects/oam/oam-new5.png" data-fancybox="oam-n">
+              <img src="/images/projects/oam/oam-new5.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      </div>
+      </div>
+
+    </section>
+
+    <div class="hr">
+      <div class="container">
+        <hr>
+      </div>
+    </div>
+
+
+    <section class="section">
+      <div class="container has-text-centered is-fira-sans">
+        <img src="/images/projects/oam/tools-team-logo.svg" width="32" height="32" class="rotation">
+        <p class="is-size-5"> Thank You for watching</p><br>
+        <p class="buttons is-centered">
+          <a class="button is-info is-outlined is-rounded" href="http://www.itsabhi.com">
+            <span class="icon">
+              <i class="fas fa-arrow-left"></i>
+            </span>
+            <span>See more work</span>
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </div>
+
+
+  </body>
+
+
+  <!-- FOOTEER SECTION -->
+  <footer class="footer">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-9">
+
+          <div class="content has-text-grey-light">
+            <p>
+              <span class="is-fira-sans">Made from scratch and <span class="has-text-danger">❤</span> by <strong
+                  class="has-text-grey"><span class="fancy-underline">Abhinav Gupta</span></strong><br></span>
+              <span class="is-fira-sans">© 2019</span><br>
+              <a href="https://bulma.io">
+                <img src="/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+              </a>
+            </p>
+          </div>
+
+        </div>
+        <div class="column is-3">
+
+          <div class="content has-text-grey-light">
+            <p class="is-fira-sans">
+              Connect with me 🤓</p>
+            <a href="https://www.linkedin.com/in/abhinav191" target="_blank" class="has-text-link is-size-5"><i
+                class="fab fa-linkedin fa-lg"></i></a> &nbsp;&nbsp;
+            <a href="https://www.twitter.com/abhi191" target="_blank" class="has-text-info is-size-5"><i
+                class="fab fa-twitter fa-lg"></i></a> &nbsp;&nbsp;
+            <a href="https://www.instagram.com/abhi191" target="_blank" class="has-text-danger is-bold is-size-5"><i
+                class="fab fa-instagram fa-lg"></i></a> &nbsp;&nbsp;
+            <a href="https://www.facebook.com/abhinav191" target="_blank" class="has-text-link is-size-5"><i
+                class="fab fa-facebook fa-lg"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+
+<script type="text/javascript">
+  (function ($) {
+    "use strict";
+
+    $(document).ready(function () {
+      "use strict";
+
+      //Scroll back to top
+
+      var progressPath = document.querySelector('.progress-wrap path');
+      var pathLength = progressPath.getTotalLength();
+      progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+      progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+      progressPath.style.strokeDashoffset = pathLength;
+      progressPath.getBoundingClientRect();
+      progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+      var updateProgress = function () {
+        var scroll = $(window).scrollTop();
+        var height = $(document).height() - $(window).height();
+        var progress = pathLength - (scroll * pathLength / height);
+        progressPath.style.strokeDashoffset = progress;
+      }
+      updateProgress();
+      $(window).scroll(updateProgress);
+      var offset = 50;
+      var duration = 550;
+      jQuery(window).on('scroll', function () {
+        if (jQuery(this).scrollTop() > offset) {
+          jQuery('.progress-wrap').addClass('active-progress');
+        } else {
+          jQuery('.progress-wrap').removeClass('active-progress');
+        }
+      });
+      jQuery('.progress-wrap').on('click', function (event) {
+        event.preventDefault();
+        jQuery('html, body').animate({
+          scrollTop: 0
+        }, duration);
+        return false;
+      })
+
+
+    });
+
+  })(jQuery);
+</script>
+
+</body>
+
+</html>

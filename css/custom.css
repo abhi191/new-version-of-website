@@ -236,3 +236,61 @@ background-position:center;
     transform-origin: center right;
     transform: scaleX(1);
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 44px;
+    }
+    h2 {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 32px;
+    }
+    p.body1 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+    .text-larger{
+      font-size: 3rem;
+      font-family: 'Fira Sans';
+  }
+  }
+
+  h1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 64px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 32px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+}
+p.body1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+p.body2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+p.body3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}

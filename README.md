@@ -1,3 +1,3 @@
-# new.itsabhi.com
+# www.itsabhi.com
 
 This is my personal website which is using Bulma. 😬

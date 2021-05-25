@@ -1,3 +1,13 @@
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: #FF3960;
+}
+
+::selection {
+  color: #ffffff;
+  background: #FF3960;
+}
+
 .new-content{
     padding: 1em;
     text-align: center;

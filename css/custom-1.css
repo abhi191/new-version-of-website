@@ -207,7 +207,6 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
     font-family: Georgia,serif;
     font-size: 3em;
     line-height: 1;
-    width: 3rem;
   }
 
   .fusion-bg{
@@ -318,6 +317,12 @@ background-position:center;
     line-height: 30px;
   }
 
+  p.body5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
   @media (max-width: 768px) {
     h1 {
       font-size: 40px;
@@ -335,6 +340,10 @@ background-position:center;
       line-height: 22px;
     }
     p.body4 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    p.body5 {
       font-size: 16px;
       line-height: 24px;
     }

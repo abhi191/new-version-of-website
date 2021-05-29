@@ -27,19 +27,13 @@ $(document).ready(function() {
     }, {
       quote: "I want people to be afraid of how much they love me.",
       name: "Michael Scott"
-    }, {
-      quote: "I am running away from my responsibilities... and it feels good.",
-      name: "Michael Scott"
-    }, {
+    },{
       quote: "I have flaws. What are they? I sing in the shower. Sometimes I spend too much time volunteering. Occasionally I'll hit somebody with my car.",
       name: "Michael Scott"
     },{
       quote: "Saw Inception. Or at least I dreamt I did ¯\\_(ツ)_/¯",
       name: "Michael Scott"
-    }, {
-      quote: "Do you think that smoking drugs is cool? Do you think that doing alcohol is cool?",
-      name: "Michael Scott"
-    }, {
+    },{
       quote: "I tried to talk to Toby and be his friend, but that's like trying to be friends with an evil snail.",
       name: "Michael Scott"
     }, {
@@ -53,9 +47,6 @@ $(document).ready(function() {
       name: "Michael Scott"
     }, {
       quote: "You know what they say. \"Fool me once, strike one. But fool me twice... strike three.\"",
-      name: "Michael Scott"
-    }, {
-      quote: "Is it the same grill you grilled your foot on? Yes, but I got all the foot off of it.",
       name: "Michael Scott"
     }, {
       quote: "I need a username. And I have a great one. \"Little Kid Lover\"",
@@ -80,12 +71,6 @@ $(document).ready(function() {
         name: "Michael Scott"
     },{
         quote: "I’m an early bird and I’m a night owl so I’m wise and I have worms.",
-        name: "Michael Scott"
-    },{
-        quote: "The worst thing about prison was the Dementors. They were flying all over the place and they were scary and they'd come down and they'd suck the soul out of your body and it hurt!",
-        name: "Michael Scott"
-    },{
-        quote: "I feel like all my kids grew up and then they married each other. It’s every parent’s dream.",
         name: "Michael Scott"
     },{
         quote: "I love inside jokes. I hope to be a part of one someday.",

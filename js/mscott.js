@@ -141,14 +141,15 @@ $(document).ready(function() {
         var newQuoteText = quoteSource[randomNumber].quote;
         var newQuoteGenius = quoteSource[randomNumber].name;
         //console.log(newQuoteText,newQuoteGenius);
-        var timeAnimation = 500;
+        var timeAnimation = 200;
         var quoteContainer = $('#quoteContainer');
         var mscottImage = $('#mscottImage');
+        document.getElementById("mscottImage").src = imgSource[randomNumber1];
         //fade out animation with callback
         quoteContainer.fadeOut(timeAnimation, function() {
           quoteContainer.html('');
           quoteContainer.append('<p>' + newQuoteText + '</p>' + '<p id="quoteGenius">' + '-								' + newQuoteGenius + '</p>');
-          document.getElementById("mscottImage").src = imgSource[randomNumber1];
+          
           
           //fadein animation.
           quoteContainer.fadeIn(timeAnimation);

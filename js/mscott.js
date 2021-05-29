@@ -120,7 +120,8 @@ $(document).ready(function() {
     "/images/about/mscott/m-14.gif",
     "/images/about/mscott/m-15.gif",
     "/images/about/mscott/m-16.gif",
-    "/images/about/mscott/m-17.gif"
+    "/images/about/mscott/m-17.gif",
+    "/images/about/mscott/m-18.gif"
     );
   
     $('#quoteButton').click(function(e) {

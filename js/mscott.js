@@ -25,9 +25,6 @@ $(document).ready(function() {
       quote: "Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way.",
       name: "Michael Scott"
     }, {
-      quote: "I want people to be afraid of how much they love me.",
-      name: "Michael Scott"
-    },{
       quote: "I have flaws. What are they? I sing in the shower. Sometimes I spend too much time volunteering. Occasionally I'll hit somebody with my car.",
       name: "Michael Scott"
     },{

@@ -134,7 +134,11 @@ $(document).ready(function() {
     "/images/about/mscott/m-10.gif",
     "/images/about/mscott/m-11.gif",
     "/images/about/mscott/m-12.gif",
-    "/images/about/mscott/m-13.gif"
+    "/images/about/mscott/m-13.gif",
+    "/images/about/mscott/m-14.gif",
+    "/images/about/mscott/m-15.gif",
+    "/images/about/mscott/m-16.gif",
+    "/images/about/mscott/m-17.gif"
     );
   
     $('#quoteButton').click(function(e) {

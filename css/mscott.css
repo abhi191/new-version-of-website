@@ -1,12 +1,12 @@
   
-  #container {
-    width: 800px;
+  #container1 {
+    
     margin: 20px auto;
     padding-bottom: 50px;
-    width: 50%;
+   
   }
   
-  #container h2 {
+  #container1 h2 {
     font-weight: bold;
     text-align: center;
   }

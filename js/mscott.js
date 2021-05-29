@@ -33,13 +33,7 @@ $(document).ready(function() {
     }, {
       quote: "I have flaws. What are they? I sing in the shower. Sometimes I spend too much time volunteering. Occasionally I'll hit somebody with my car.",
       name: "Michael Scott"
-    }, {
-      quote: "You don't know me; you've just seen my penis.",
-      name: "Michael Scott"
-    }, {
-      quote: "Well, happy birthday, Jesus. Sorry your party's so lame.",
-      name: "Michael Scott"
-    }, {
+    },{
       quote: "Saw Inception. Or at least I dreamt I did ¯\\_(ツ)_/¯",
       name: "Michael Scott"
     }, {
@@ -79,7 +73,7 @@ $(document).ready(function() {
       quote: "That's what she said!",
       name: "Michael Scott"
     },{
-        quote: "You miss 100% of the shots you don’t take. - Wayne Gretzky",
+        quote: "\"You miss 100% of the shots you don’t take.\" - Wayne Gretzky",
         name: "Michael Scott"
     },{
         quote: "Wikipedia is the best thing ever. Anyone in the world can write anything they want about any subject so you know you are getting the best possible information.",
@@ -103,10 +97,25 @@ $(document).ready(function() {
         quote: "Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.",
         name: "Michael Scott"
     },{
-        quote: "I have cause. It is beCAUSE I hate him.",
+        quote: "When the son of the deposed king of Nigeria emails you directly, asking for help, you help! His father ran the freaking country! Okay?",
         name: "Michael Scott"
     },{
-        quote: "I have cause. It is beCAUSE I hate him.",
+        quote: "Well, well, well, how the turntables.",
+        name: "Michael Scott"
+    },{
+        quote: "I understand nothing.",
+        name: "Michael Scott"
+    },{
+        quote: "I am running away from my responsibilities. And it feels good.",
+        name: "Michael Scott"
+    },{
+        quote: "I live by one rule: No office romances, no way. Very messy, inappropriate…no. But, I live by another rule: Just do it…Nike.",
+        name: "Michael Scott"
+    },{
+        quote: "They always say that it’s a mistake to hire your friends. And they are right. So, I hired my best friends. And this is what I get!?",
+        name: "Michael Scott"
+    },{
+        quote: "This is a dream that I’ve had…since lunch…and I’m not giving it up now.",
         name: "Michael Scott"
     }
 ];
@@ -153,7 +162,7 @@ $(document).ready(function() {
           quoteContainer.html('');
           quoteContainer.append('<p>' + newQuoteText + '</p>' + '<p id="quoteGenius">' + '-								' + newQuoteGenius + '</p>');
           document.getElementById("mscottImage").src = imgSource[randomNumber1];
-        
+          
           //fadein animation.
           quoteContainer.fadeIn(timeAnimation);
         });

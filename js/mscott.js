@@ -78,7 +78,38 @@ $(document).ready(function() {
     }, {
       quote: "That's what she said!",
       name: "Michael Scott"
-    }];
+    },{
+        quote: "You miss 100% of the shots you don’t take. - Wayne Gretzky",
+        name: "Michael Scott"
+    },{
+        quote: "Wikipedia is the best thing ever. Anyone in the world can write anything they want about any subject so you know you are getting the best possible information.",
+        name: "Michael Scott"
+    },{
+        quote: "I’m an early bird and I’m a night owl so I’m wise and I have worms.",
+        name: "Michael Scott"
+    },{
+        quote: "The worst thing about prison was the Dementors. They were flying all over the place and they were scary and they'd come down and they'd suck the soul out of your body and it hurt!",
+        name: "Michael Scott"
+    },{
+        quote: "I feel like all my kids grew up and then they married each other. It’s every parent’s dream.",
+        name: "Michael Scott"
+    },{
+        quote: "I love inside jokes. I hope to be a part of one someday.",
+        name: "Michael Scott"
+    },{
+        quote: "I have cause. It is beCAUSE I hate him.",
+        name: "Michael Scott"
+    },{
+        quote: "Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.",
+        name: "Michael Scott"
+    },{
+        quote: "I have cause. It is beCAUSE I hate him.",
+        name: "Michael Scott"
+    },{
+        quote: "I have cause. It is beCAUSE I hate him.",
+        name: "Michael Scott"
+    }
+];
 
 
     var imgSource = new Array(
@@ -92,7 +123,9 @@ $(document).ready(function() {
     "/images/about/mscott/m-8.gif",
     "/images/about/mscott/m-9.gif",
     "/images/about/mscott/m-10.gif",
-    "/images/about/mscott/m-11.gif"
+    "/images/about/mscott/m-11.gif",
+    "/images/about/mscott/m-12.gif",
+    "/images/about/mscott/m-13.gif"
     );
   
     $('#quoteButton').click(function(e) {

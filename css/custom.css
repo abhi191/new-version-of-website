@@ -372,14 +372,3 @@ background-position:center;
       url(/fonts/inter-v3-latin-800.woff)
         format("woff");
   }
-
-  .button-2{
-    border: 2px solid var(--current-primary);
-    border-radius: .125em;
-    box-shadow: 0 2vh 5vw rgb(0 0 0 / 30%);
-    color: hsla(0,0%,100%,.5);
-    display: flex;
-    position: relative;
-    transition-duration: .25s;
-    transition-property: color,transform;
-  }

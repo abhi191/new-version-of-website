@@ -13,6 +13,12 @@
   border: 0;
 }
 
+body {
+    color: #1b1b1b;
+    font-family: Inter, sans-serif;
+    overflow-x: hidden;
+  }
+
 .new-content{
     padding: 1em;
     text-align: center;
@@ -170,6 +176,13 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
 
 }
 
+.bg-vra{
+  background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 
   .highlight-word{
     display: inline-block;
@@ -217,6 +230,16 @@ background-size:cover;
 background-position:center; 
   }
 
+  .vra-op{
+    background: url(/images/projects/vRA_OP/bg.svg);
+    background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:contain;
+background-position:center; 
+  }
+
   .fancy-underline {
     position: relative;
   }
@@ -252,6 +275,55 @@ background-position:center;
     transform: scaleX(1);
   }
 
+
+
+  h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 64px;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+  }
+  h3 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+  }
+  p.body1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  p.body2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  p.body3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  p.body4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  p.body5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
   @media (max-width: 768px) {
     h1 {
       font-size: 40px;
@@ -268,44 +340,46 @@ background-position:center;
       font-weight: 400;
       line-height: 22px;
     }
-    .text-larger{
-      font-size: 3rem;
-      font-family: 'Fira Sans';
-  }
+    p.body4 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    p.body5 {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 
-  h1 {
-  font-size: 60px;
-  font-weight: 800;
-  line-height: 64px;
-}
-h2 {
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 44px;
-}
-h3 {
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 32px;
-}
-h4 {
-  font-size: 20px;
-  font-weight: 800;
-  line-height: 24px;
-}
-p.body1 {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
-}
-p.body2 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-}
-p.body3 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-}
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Inter-Regular"),
+      url(/fonts/inter-v3-latin-regular.woff2)
+        format("woff2"),
+      url(/fonts/inter-v3-latin-regular.woff)
+        format("woff");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local("Inter-ExtraBold"),
+      url(/fonts/inter-v3-latin-800.woff2)
+        format("woff2"),
+      url(/fonts/inter-v3-latin-800.woff)
+        format("woff");
+  }
+
+  .button-2{
+    border: 2px solid var(--current-primary);
+    border-radius: .125em;
+    box-shadow: 0 2vh 5vw rgb(0 0 0 / 30%);
+    color: hsla(0,0%,100%,.5);
+    display: flex;
+    position: relative;
+    transition-duration: .25s;
+    transition-property: color,transform;
+  }

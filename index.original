@@ -15,15 +15,14 @@
 
 	<link rel="stylesheet" href="css/bulma.min.css">
 	<link rel="stylesheet" href="css/hover-min.css">
-<!--	<link rel="stylesheet" href="css/custom.css">   -->
-    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/custom.css">
 	<link rel="stylesheet" href="/css/progress-wrap.css">
 	<link rel="stylesheet" href="/css/unicons.css">
-<!--    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">    -->
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-
+	
 
 <!-- Google Tag Manager -->
 <script>
@@ -90,23 +89,20 @@
 						<p class="subtitle is-4 is-fira-sans">
 							<span>Hello,</span> myself
 						</p>
-					
 						<p class="title is-1">
 							<span class="text-larger">Abhinav</span> <span id="sequence2"></span>
 						</p>
-						
-						<p class="has-text-grey-dark is-fira-sans">
+						<p class="has-text-grey is-fira-sans">
 							A multi-disciplinary designer from <a href="https://www.nid.edu" target="_blank"
 								class="has-text-grey-darker is-underline-purple"><img src="/images/nid_logo.png" alt="nid_logo"
-									width="24px" height="24px"> National Institute of Design, India</a> with <strong>5+ years</strong> of domain experience in designing and developing
-							for enterprise and consumer grade applications to create meaningful, clear, usable, and effective products.
-                        </p><br>
-						<p class="has-text-grey-dark is-fira-sans">
-							Currently working as a <strong>Product Designer</strong> at
-							<a href="https://www.vmware.com" target="_blank" class="has-text-grey-darker is-underline-blue"><img
-									src="/images/Vmware.svg" alt="sap-logo" width="80px"></a>
+									width="24px" height="24px"> National Institute of Design</a> with 5+ years of domain experience in designing
+							for enterprise and consumer grade applications to create meaningful and easy to use products. 
+							<p class="has-text-grey is-fira-sans">
+								Currently working as a <span class="has-text-grey-darker has-text-weight-semibold">Product Designer</span> at
+								<a href="https://www.vmware.com" target="_blank" class="has-text-grey-darker is-underline-blue"><img
+										src="/images/Vmware.svg" alt="sap-logo" width="80px"></a>
+							</p>
 						</p>
-						
 
 					</div>
 				</div>
@@ -129,44 +125,15 @@
 
 	<div class="hr">
 		<div class="container">
-           
 			<hr>
 		</div>
 	</div>
-<br>
-    <section>
-        <div class="container">
-            <div class="columns">
-            <h2 class="title is-4">
-                <span class="is-underline-green is-fira-sans"> Some of my works 👨‍💻</span>
-            </h2>
-           
-        </div>
-        </div>
-        
-    </section>
-    <br><br><br>
-    <section class="hero is-medium mb-3 bg-vra">
-		<div class="hero-body">
-			<div class="container">
-                
-				<div class="columns">
-					<div class="column is-7">
-                        
-									<img src="/images/Vmware.svg" alt="vmware" width="160px"><br> <br>
-								
-						<h1 class="mb-4"><img src="/images/projects/vRA_OP/vRealize Automation Cloud_light.svg" alt="vmware" width="48px"> vRealize Automation</h1>
-						<p class="body1">Improving the process of onboarding existing machines from public clouds.
-							<p>
-								<br><br><br>
-								 <a class="button is-white" href="/projects/vra_onb.html"> View Case Study </a> 
-					</div>
-					<div class="column"> <img class="" src="/images/projects/vRA_OP/Header image.png" /></div>
-				</div>
-			</div>
-	</section>
+
 	<section class="section">
 		<div class="container">
+			<h2 class="title is-4">
+				<span class="is-underline-green is-fira-sans"> Some of my works 👨‍💻</span>
+			</h2>
 			<div class="columns is-multiline">
 				<div class="column is-half">
 					<div>
@@ -280,7 +247,7 @@
 			  </div>
 			</div>	-->
 
-	<!-- BEHANCE Section-->
+	<!-- BEHANCE Section	-->
 
 	<section class="section">
 		<div class="container">
@@ -301,7 +268,7 @@
 				</div>
 			</nav>
 		</div>
-	</section>
+	</section> 	
 
 
 	<body>
@@ -348,7 +315,7 @@
 						<a href="https://www.instagram.com/abhi191" target="_blank" class="has-text-danger is-bold is-size-5"><i
 								class="fab fa-instagram fa-lg"></i></a> &nbsp;&nbsp;
 						<a href="https://www.facebook.com/abhinav191" target="_blank" class="has-text-link is-size-5"><i
-								class="fab fa-facebook fa-lg"></i></a>
+								class="fab fa-facebook fa-lg"></i></a>	
 					</div>
 
 				</div>

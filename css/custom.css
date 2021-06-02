@@ -1,13 +1,3 @@
-::-moz-selection { /* Code for Firefox */
-  color: #000000;
-  background: #00FEBF;
-}
-
-::selection {
-  
-  color: #000000;
-  background: #00FEBF;
-}
 
 .resp-container {
   position: relative;

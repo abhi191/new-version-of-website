@@ -38,6 +38,19 @@
         <!-- End Google Tag Manager -->
 
 
+        <style>
+          ::-moz-selection { /* Code for Firefox */
+       color: #000000;
+       background: #C5FBC6;
+       }
+       
+       ::selection {
+       
+       color: #000000;
+       background: #C5FBC6;
+       }
+         </style>
+
 </head>
 
 <body>
@@ -123,7 +136,7 @@
       </div>
     </section> <br><br>
     <br><br><br>
-    <section class="section panel">
+    <section class="section">
       <div class="container is-fira-sans">
         <nav class="level">
           <div class="level-item content has-text-centered">
@@ -170,7 +183,7 @@
       </div>
     </section>
     <br><br><br>
-    <section class="section panel">
+    <section class="section  ">
       <div class="container is-fira-sans">
         <nav class="level">
           <div class="level-item content has-text-centered">
@@ -200,7 +213,7 @@
     </section>
 
     <br><br><br>
-    <section class="section panel">
+    <section class="section  ">
       <div class="container is-fira-sans">
         <nav class="level">
           <div class="level-item content has-text-centered">
@@ -221,7 +234,7 @@
     </section>
 
     <br><br><br>
-    <section class="section panel">
+    <section class="section  ">
       <div class="container is-fira-sans">
         <nav class="level">
           <div class="level-item content has-text-centered">
@@ -296,7 +309,7 @@
     </section>
 
 
-    <section class="section panel">
+    <section class="section  ">
       <div class="container is-fira-sans">
         <nav class="level">
           <div class="level-item content has-text-centered">
@@ -318,7 +331,7 @@
 
     </section>
 
-    <section class="section panel">
+    <section class="section  ">
       <div class="container is-fira-sans">
         <nav class="level">
           <div class="level-item content has-text-centered">
@@ -335,9 +348,10 @@
               <p><span class="subtitle is-5">Web Dashboard</span> - Please click <strong><a
                     href="https://marvelapp.com/75i2e5h" target="_blank">here</a></strong> if prototype doesn't
                 work/show up properly.</p><br /><br />
-
-              <iframe src="https://marvelapp.com/75i2e5h?emb=1" width=“960” height=“540” allowTransparency="true"
-                frameborder="0" class="help-iframe"></iframe><br /><br /><br /><br />
+                <div class="resp-container">
+                  <iframe src="https://marvelapp.com/75i2e5h?emb=1" allowTransparency="true"
+                frameborder="0" class="help-iframe resp-iframe"></iframe>
+                </div>
 
             </div>
           </div>
@@ -350,8 +364,11 @@
               <p><span class="subtitle is-5">Mobile Application</span> - Please click <strong><a
                     href="https://marvelapp.com/598adjb" target="_blank">here</a></strong> if prototype doesn't
                 work/show up properly.</p><br /><br />
-              <iframe src="https://marvelapp.com/598adjb?emb=1" width="452" height="901" allowTransparency="true"
+                <div class="resp-container">
+                  <iframe class="resp-iframe" src="https://marvelapp.com/598adjb?emb=1" width="452" height="901" allowTransparency="true"
                 frameborder="0" class="help-iframe2"></iframe>
+                </div>
+              
 
             </div>
           </div>
@@ -384,9 +401,9 @@
 
     <div class="progress-wrap">
       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
       </svg>
-    </div>
+   </div>
 
   </body>
 
@@ -456,84 +473,52 @@
     });
   </script>
 
-  <script type="text/javascript">
-    $(window).scroll(function () {
-
-      // selectors
-      var $window = $(window),
-        $body = $('body'),
-        $panel = $('.panel');
-
-      // Change 33% earlier than scroll position so colour is there when you arrive.
-      var scroll = $window.scrollTop() + ($window.height() / 3);
-
-      $panel.each(function () {
-        var $this = $(this);
-
-        // if position is within range of this panel.
-        // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-        // Remember we set the scroll to 33% earlier in scroll var.
-        if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-
-          // Remove all classes on body with color-
-          $body.removeClass(function (index, css) {
-            return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
-          });
-
-          // Add class of currently active div
-          $body.addClass('color-' + $(this).data('color'));
-        }
-      });
-
-    }).scroll();
-  </script>
-
-  <script type="text/javascript">
-    (function ($) {
+<script type="text/javascript">
+  (function ($) {
+    "use strict";
+  
+    $(document).ready(function () {
       "use strict";
-
-      $(document).ready(function () {
-        "use strict";
-
-        //Scroll back to top
-
-        var progressPath = document.querySelector('.progress-wrap path');
-        var pathLength = progressPath.getTotalLength();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-        progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
-        progressPath.style.strokeDashoffset = pathLength;
-        progressPath.getBoundingClientRect();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
-        var updateProgress = function () {
-          var scroll = $(window).scrollTop();
-          var height = $(document).height() - $(window).height();
-          var progress = pathLength - (scroll * pathLength / height);
-          progressPath.style.strokeDashoffset = progress;
+  
+      //Scroll back to top
+  
+      var progressPath = document.querySelector('.progress-wrap path');
+      var pathLength = progressPath.getTotalLength();
+      progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+      progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+      progressPath.style.strokeDashoffset = pathLength;
+      progressPath.getBoundingClientRect();
+      progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+      var updateProgress = function () {
+        var scroll = $(window).scrollTop();
+        var height = $(document).height() - $(window).height();
+        var progress = pathLength - (scroll * pathLength / height);
+        progressPath.style.strokeDashoffset = progress;
+      }
+      updateProgress();
+      $(window).scroll(updateProgress);
+      var offset = 50;
+      var duration = 550;
+      jQuery(window).on('scroll', function () {
+        if (jQuery(this).scrollTop() > offset) {
+          jQuery('.progress-wrap').addClass('active-progress');
+        } else {
+          jQuery('.progress-wrap').removeClass('active-progress');
         }
-        updateProgress();
-        $(window).scroll(updateProgress);
-        var offset = 50;
-        var duration = 550;
-        jQuery(window).on('scroll', function () {
-          if (jQuery(this).scrollTop() > offset) {
-            jQuery('.progress-wrap').addClass('active-progress');
-          } else {
-            jQuery('.progress-wrap').removeClass('active-progress');
-          }
-        });
-        jQuery('.progress-wrap').on('click', function (event) {
-          event.preventDefault();
-          jQuery('html, body').animate({
-            scrollTop: 0
-          }, duration);
-          return false;
-        })
-
-
       });
-
-    })(jQuery);
-  </script>
+      jQuery('.progress-wrap').on('click', function (event) {
+        event.preventDefault();
+        jQuery('html, body').animate({
+          scrollTop: 0
+        }, duration);
+        return false;
+      })
+  
+  
+    });
+  
+  })(jQuery);
+</script>
 
 </body>
 

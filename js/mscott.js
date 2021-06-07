@@ -99,6 +99,22 @@ $(document).ready(function() {
     },{
         quote: "This is a dream that I’ve had…since lunch…and I’m not giving it up now.",
         name: "Michael Scott"
+    },
+    {
+      quote:"Nostalgia is truly one of the great human weaknesses. Second only to the neck.",
+      name: "Dwight Schrute"
+    },
+    {
+      quote:"All you need is love. False. The four basic human necessities are air, water, food, and shelter.",
+      name: "Dwight Schrute"
+    },
+    {
+      quote:"I am faster than 80% of all snakes.",
+      name: "Dwight Schrute"
+    },
+    {
+      quote:"In an ideal world I would have all ten fingers on my left hand and the right one would just be left for punching.",
+      name: "Dwight Schrute"
     }
 ];
 
@@ -121,7 +137,11 @@ $(document).ready(function() {
     "/images/about/mscott/m-15.gif",
     "/images/about/mscott/m-16.gif",
     "/images/about/mscott/m-17.gif",
-    "/images/about/mscott/m-18.gif"
+    "/images/about/mscott/m-18.gif",
+    "/images/about/mscott/m-19.gif",
+    "/images/about/mscott/m-20.gif",
+    "/images/about/mscott/m-21.gif",
+    "/images/about/mscott/m-22.gif"
     );
   
     $('#quoteButton').click(function(e) {
